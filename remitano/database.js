@@ -57,17 +57,17 @@ function Database() {
     });
   });
   this.temp  = {
-    password    : "password12345",
-    email       : "zixiankhoo@gmail.com",
+    password    : "",
+    email       : "",
     backup      : 4.13,
     score       : 0.300,
     lastonline  : 15,
     trades      : 30,
     sellfiat    : 13500,
     buyfiat     : 13500,
-    bank        : "maybank",
+    bank        : "",
     banknumber  : 23212312,
-    bankname    : "John Doe",
+    bankname    : "",
     blacklist   : []
   };
   for (let i = 8; i < 33; i++) {
